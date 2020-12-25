@@ -280,6 +280,9 @@ padding: 0 0 4.5rem;
         .title-image{
              object-position: right;
         }
+     .image{
+            padding:5% 20% 0% 20% ;
+        }
       
 }
 .container-fluid{ padding: 7% 15%;}
