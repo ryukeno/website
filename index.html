@@ -5,11 +5,15 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-940WN9C8TN"></script>
 <script>
-  var myFrame = document.getElementById('og_iframe_6089a49b0d770e4ea41ad562');
+  setTimeout(function(){ 
+   var myFrame = document.getElementById('og_iframe_6089a49b0d770e4ea41ad562');
 
 myFrame.contentWindow.foo = function(){
        console.log ("Look at me, executed inside an iframe!");
 }
+  
+  }, 3000);
+ 
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
