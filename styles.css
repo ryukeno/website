@@ -4,8 +4,8 @@ body{ font-family: 'Montserrat', sans-serif;
     h3{font-family: 'Playfair Display', serif;
         text-align: left;
         color: white;
-        
-        
+
+
     }
     p{ color:  white;
     text-align: justify;
@@ -18,27 +18,27 @@ body{ font-family: 'Montserrat', sans-serif;
         text-decoration: none;
     }
     /* Headings */
-    
+
     h1,h2 {font-family: 'Playfair Display', serif;
         font-weight: bold;
         font-weight: 700;
         color: white;
     }
-    
+
      td,th{color: white;
     text-align: center;}
   table{
       text-align : center;
       margin: 0;
   }
-    
-    .big-heading{ 
+
+    .big-heading{
         font-size: 3.5rem;
         line-height: 1.5;
     }
-        
+
     .section-heading{     font-size: 3rem;}
-    
+
     .container-fluid{ padding: 7% 7%;}
 
     #work{
@@ -48,31 +48,31 @@ body{ font-family: 'Montserrat', sans-serif;
         background-repeat: no-repeat;
         background-color: black;
         background-position: left;
-        
-        
+
+
     }
-   
+
     #skills {
         background-image: url("10.jpeg");
         background-repeat: no-repeat;
         background-size: 70%;
         background-position: right;
-        
+
         background-color: black;
         padding: 2% 20% 0% 20%;
-        
+
     }
     #projects {
         background-color: black;
         padding: 5% 20% 10% 20%;
         background-position: right;
         background-size: 100%;
-        
-       
+
+
     }
-   
+
     .p1{
-        background-image: url('data.jpg'); 
+        background-image: url('data.jpg');
         padding: 5% 20% 10% 20%;
         background-size: 65%;
         background-position: right;
@@ -96,7 +96,7 @@ body{ font-family: 'Montserrat', sans-serif;
         border-radius: 5px;
         text-align: center;
       }
-      
+
       .container .btn:hover {
         background-color: black;
         color: white;
@@ -109,9 +109,9 @@ body{ font-family: 'Montserrat', sans-serif;
 
         margin: 50px 0;
         list-style: none;
-    
+
     }
-    
+
     .bar{
         display: block;
         height: 10px;
@@ -120,7 +120,7 @@ body{ font-family: 'Montserrat', sans-serif;
         overflow: hidden;
         box-shadow: 0 0 10px rgb(106, 222, 243);
     }
-    
+
     .bar span {
         height: 10px;
         float: left;
@@ -128,7 +128,7 @@ body{ font-family: 'Montserrat', sans-serif;
 
     }
 
-    
+
 
 
       .microsoft{  width: 90%;
@@ -147,7 +147,7 @@ body{ font-family: 'Montserrat', sans-serif;
         animation: css 2s;}
       .js{  width: 40%;
     animation: js 2s;}
-    
+
     @keyframes microsoft{
         0%{width: 0%;}
         100%{width: 90%;}
@@ -189,8 +189,8 @@ body{ font-family: 'Montserrat', sans-serif;
 
 
 /* Title */
- 
-#title{ 
+
+#title{
     color: #fff;
     text-align: left;
 }
@@ -202,17 +202,17 @@ body{ font-family: 'Montserrat', sans-serif;
 /* title image */
 .title-image{
     width: 12%;
-    
+
     position: absolute;
-}  
+}
 
 .image{
     position: relative;
     width: 90%;
     align: center;
    padding:5% 3% 0% 20% ;
-  
-    
+
+
 }
 
 
@@ -229,7 +229,7 @@ padding: 0 0 4.5rem;
 
 .navbar-brand{
     font-family: 'Ubuntu', sans-serif;
-    
+
     font-size: 2.5rem;
 }
 
@@ -254,19 +254,19 @@ padding: 0 0 4.5rem;
  .footer-link{
     display: inline-block;}
 
-#footer{  
+#footer{
     padding: 3% 0 0.03% 0 ;
-  
+
    }
-     
+
 
  .ico{
     color: black;
     margin: 15px;
     width: 20px;
-    
-    
-    
+
+
+
  }
  #footer p{color: grey;}
  .ico:hover {color: grey;}
@@ -276,13 +276,13 @@ padding: 0 0 4.5rem;
  @media only screen and (max-width: 1028px){
     #title {
         text-align: center;}
-    
+
         .title-image{
              object-position: right;
         }
         .image{
             padding:5% 20% 0% 20% ;
         }
-    
+
 }
 .container-fluid{ padding: 7% 15%;}
