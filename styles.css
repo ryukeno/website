@@ -1,1 +1,288 @@
-d
+body{ font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+    h3{font-family: 'Playfair Display', serif;
+        text-align: left;
+        color: white;
+
+
+    }
+    p{ color:  white;
+    text-align: justify;
+    line-height: 2;
+    }
+    a{ color: rgb(39, 183, 240);
+    }
+    a:hover{
+        color: white;
+        text-decoration: none;
+    }
+    /* Headings */
+
+    h1,h2 {font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-weight: 700;
+        color: white;
+    }
+
+     td,th{color: white;
+    text-align: center;}
+  table{
+      text-align : center;
+      margin: 0;
+  }
+
+    .big-heading{
+        font-size: 3.5rem;
+        line-height: 1.5;
+    }
+
+    .section-heading{     font-size: 3rem;}
+
+    .container-fluid{ padding: 7% 7%;}
+
+    #work{
+        background-image: url("11.jpg");
+        background-size: 60%;
+        padding: 5% 20% 10% 20%;
+        background-repeat: no-repeat;
+        background-color: black;
+        background-position: left;
+
+
+    }
+
+    #skills {
+        background-image: url("10.jpeg");
+        background-repeat: no-repeat;
+        background-size: 70%;
+        background-position: right;
+
+        background-color: black;
+        padding: 2% 20% 0% 20%;
+
+    }
+    #projects {
+        background-color: black;
+        padding: 5% 20% 10% 20%;
+        background-position: right;
+        background-size: 100%;
+
+
+    }
+
+    .p1{
+        background-image: url('data.jpg');
+        padding: 5% 20% 10% 20%;
+        background-size: 65%;
+        background-position: right;
+        background-repeat: no-repeat;
+        background-color: black;
+        padding-left: 30%;
+    }
+
+    .container .btn {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #f1f1f1;
+        color: black;
+        font-size: 16px;
+        padding: 16px 30px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        text-align: center;
+      }
+
+      .container .btn:hover {
+        background-color: black;
+        color: white;
+      }
+    .crousel-text{
+        color: white;
+        text-align: justify left;
+    }
+   #skills li{
+
+        margin: 50px 0;
+        list-style: none;
+
+    }
+
+    .bar{
+        display: block;
+        height: 10px;
+        border: 1px solid rgba(0, 0, 0, 3);
+        border-radius: 3px;
+        overflow: hidden;
+        box-shadow: 0 0 10px rgb(106, 222, 243);
+    }
+
+    .bar span {
+        height: 10px;
+        float: left;
+        background:  rgb(106, 222, 243);
+
+    }
+
+
+
+
+      .microsoft{  width: 90%;
+        animation: microsoft 2s;}
+      .tableau{  width: 90%;
+        animation: tableau 2s;}
+      .python{  width: 80%;
+        animation: python 2s;}
+      .sql{  width: 80%;
+        animation: sql 2s;}
+      .R{  width: 40%;
+      animation:R 2s;}
+      .html{  width: 70%;
+        animation: html 2s;}
+      .css{  width: 60%;
+        animation: css 2s;}
+      .js{  width: 40%;
+    animation: js 2s;}
+
+    @keyframes microsoft{
+        0%{width: 0%;}
+        100%{width: 90%;}
+    }
+    @keyframes .tableau{
+        0%{width: 0%;}
+        100%{width: 90%;}
+    }
+    @keyframes python{
+        0%{width: 0%;}
+        100%{width: 80%;}
+    }
+
+    @keyframes sql{
+        0%{width: 0%;}
+        100%{width: 80%;}
+    }
+
+    @keyframes R{
+        0%{width: 0%;}
+        100%{width: 40%;}
+    }
+
+    @keyframes html{
+        0%{width: 0%;}
+        100%{width: 70%;}
+    }
+    @keyframes css{
+        0%{width: 0%;}
+        100%{width: 60%;}
+    }
+
+    @keyframes js{
+        0%{width: 0%;}
+        100%{width: 40%;}
+    }
+
+
+
+
+/* Title */
+
+#title{
+    color: #fff;
+    text-align: left;
+}
+
+#title .container-fluid{padding: 5% 7% 5% 10%;}
+
+
+
+/* title image */
+.title-image{
+    width: 12%;
+
+    position: absolute;
+}
+
+.image{
+    position: relative;
+    width: 90%;
+    align: center;
+   padding:5% 3% 0% 20% ;
+
+
+}
+
+
+/* sections */
+.colored-section{background-color : black;}
+
+.white-section{background-color: #fff;}
+
+
+/* Nav Bar */
+.navbar{
+padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+
+    font-size: 2.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+
+
+
+
+
+
+
+/* Footer */
+
+ .footer-link{
+    display: inline-block;}
+
+#footer{
+    padding: 3% 0 0.03% 0 ;
+
+   }
+
+
+ .ico{
+    color: black;
+    margin: 15px;
+    width: 20px;
+
+
+
+ }
+ #footer p{color: grey;}
+ .ico:hover {color: grey;}
+
+ /* media querie */
+
+ @media only screen and (max-width: 1028px){
+    #title {
+        text-align: center;}
+
+        .title-image{
+             object-position: right;
+        }
+        .image{
+            padding:5% 20% 0% 20% ;
+        }
+
+}
+.container-fluid{ padding: 7% 15%;}
